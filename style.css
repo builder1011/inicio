@@ -183,7 +183,7 @@ section.sobre .flex {
   text-align: justify;
 }
 
-.sobre .txt-sobre .btn-social button {
+.btn-social button {
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -287,4 +287,69 @@ form .btn-enviar input {
   font-weight: 700;
   cursor: pointer;
   transition: .2s;
+}
+
+
+/* ESTILO DO RODAPÉ */
+
+footer {
+  padding: 60px 4%;
+  box-shadow: 0 0 40px 10px #ffffff25;
+}
+
+footer .flex {
+  justify-content: space-between;
+}
+
+footer .line-footer {
+  padding: 20px 0;
+}
+
+.borda {
+  border-top: 2px solid #00ff08;
+}
+
+footer .line-footer p i{
+  color: #00ff08;
+  font-size: 22px;
+}
+
+footer .line-footer p a{
+  color: #fff;
+}
+
+
+@media screen and (max-width: 1020px) {
+    
+      /* CLASSES GERAIS */
+
+      .flex {
+        flex-direction: column;
+      }
+
+      .topo-do-site .flex{
+        flex-direction: column-reverse;
+      }
+
+      /* CABEÇALHO */
+      .menu-desktop, .btn-contato {
+      display: none;
+    }
+
+    /*  TOPO DO SITE  */
+
+    section .topo-do-site .flex {
+      gap: 40px;
+    }
+    section .topo-do-site {
+      padding: 20px 8%;
+    }
+
+    .topo-do-site h1 {
+      font-size: 30px;
+    }
+    
+    .topo-do-site .img-topo-site img {
+      width: 100%;
+    }
 }

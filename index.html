@@ -13,6 +13,7 @@
   <!--BOOTSTRAP-ICONS-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <!--BOOTSTRAP-ICONS-->
+  
   </head>
 
 
@@ -58,7 +59,7 @@
               </div><!--txt-topo-site-->
 
               <div class="img-topo-site">
-                  <img src="img/programador-de-jogos-tela-código-scaled.jpg" alt="" height="300" width="300">
+                  <img src="./imagens/es.png" alt="" height="300" width="300">
               </div><!--img-topo-site-->
              </div><!--Flex-->
           </div><!--interface-->
@@ -97,7 +98,7 @@
           <div class="flex">
 
               <div class="img-sobre">
-                <img src="./img/esse.jpg" alt="">
+                <img src="./imagens/es.png" alt="" height="500" width="400">
               </div><!--img-sobre-->
 
               <div class="txt-sobre">
@@ -133,10 +134,10 @@
         <div class="interface">
           <h2 class="titulo">FALA <SPAN>COMIGO.</SPAN></h2>
 
-          <form action="">
-            <input type="text" name="" id="" placeholder="Seu nome completo:" required> 
-            <input type="text" name="" id="" placeholder="Seu e-mail" required>
-            <input type="text" name="" id="" placeholder="Seu celular:">
+          <form method="post" action="envia.php">
+            <input type="text" name="nome" id="nome" placeholder="Seu nome completo:" required> 
+            <input type="text" name="email" id="email" placeholder="Seu e-mail" required>
+            <input type="text" name="telefone" id="telefone" placeholder="Seu celular:">
             <textarea name="" id="" placeholder="Sua mensegem" required></textarea>
             <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
 
@@ -146,7 +147,23 @@
   </main>
 
   <footer>
-    <p>Copyright © 2023</p>
+    <div class="interface">
+      <div class="line-footer borda">
+        <div class="flex">
+          <div class="logo-footer">
+            <img src="/esse.jpg" alt="">
+          </div><!--logo-footer-->
+          <div class="btn-social">
+            <a href="#"><button><i class="bi bi-instagram"></i></button></a>
+            <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
+          </div><!--btn-social-->
+        </div>
+      </div><!--line-footer-->
+
+      <div class="line-footer">
+        <p><i class="bi bi-envelope-fill"></i> <a href="mailto:andeosedu23@gmail.com">andreosedu23@gmail.com</a></p>
+      </div>
+    </div><!--interface-->
   </footer>
 
 </body>
